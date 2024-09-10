@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="LogIn.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <div class="logo-img"></div>
+            <div class="logo-text">
+                <span>A-TECH</span>
+            </div>
+        </div>
+        <button class="button-1">
+            <span>Start my free trial</span>
+        </button>
+    </nav>
+
+    <div class="form-body">
+        <div class="inner">
+            <div class="header">
+                <span>WELCOME TO A-TECH</span>
+            </div>
+
+            <div class="google">
+                <div class="google-logo">
+                    <img src="images/google_logo.png" alt="Google Logo">
+                </div>
+                <div class="google-right">
+                    <div class="google-text">
+                        <span>Sign in with Google</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="or-option">
+                <div class="line-1"></div>
+                <div class="or">
+                    <span>Or, sign in with email</span>
+                </div>
+                <div class="line-2"></div>
+            </div>
+
+            <!-- Main Form -->
+            <form action="connect.php" method="post" id="loginForm">
+                <div class="email">
+                    <div class="work-email">
+                        <span>Email</span>
+                    </div>
+                    <div class="email-box">
+                        <input type="email" id="email" name="email" placeholder="name@company.com" required>
+                    </div>
+                </div>
+
+                <div class="password-option">
+                    <div class="password">
+                        <span>Password</span>
+                    </div>
+                    <div class="password-box">
+                        <input type="password" id="password" name="password" placeholder="password" required>
+                    </div>
+                </div>
+
+                <div class="alternative-options">
+                    <div class="select">
+                        <!-- Optionally, you can add a dropdown or other select elements here -->
+                    </div>
+                    <div class="keep-me">
+                        <input type="checkbox" id="keep-me" name="keep-me">
+                        <label for="keep-me">Keep me signed in</label>
+                    </div>
+                    <div class="forgot-option">
+                        <span><a href="#">Forgot your password</a></span>
+                    </div>
+                </div>
+
+                <div class="sign-in">
+                    <button type="submit">Sign in</button>
+                </div>
+            </form>
+
+            <div class="sso">
+                <span>Redefining the Future of Technology.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
